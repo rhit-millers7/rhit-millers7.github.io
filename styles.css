@@ -138,32 +138,6 @@ h1 {
     margin-bottom: 5px;
 }
 
-.filter-buttons {
-    text-align: center;
-    margin-bottom: 30px;
-}
-
-.filter-btn {
-    padding: 10px 20px;
-    margin: 5px;
-    border: 2px solid #3498db;
-    background-color: white;
-    color: #3498db;
-    border-radius: 20px;
-    cursor: pointer;
-    font-size: 16px;
-}
-
-.filter-btn:hover {
-    background-color: #3498db;
-    color: white;
-}
-
-.filter-btn.active {
-    background-color: #3498db;
-    color: white;
-}
-
 .projects {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -174,7 +148,6 @@ h1 {
     background-color: white;
     border-radius: 5px;
     overflow: hidden;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
 .project-card.hidden {
